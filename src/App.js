@@ -11,7 +11,7 @@ function App() {
       <div className="flex items-center justify-center h-full">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<TasksList />} />
+            <Route path="/react-rtk-crud" element={<TasksList />} />
             <Route path="/create-task" element={<TaskForm />} />
             <Route path="/edit-task/:id" element={<TaskForm />} />
           </Routes>
